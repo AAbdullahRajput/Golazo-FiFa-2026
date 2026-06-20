@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+# ⚽ Golazo — FIFA World Cup 2026 Predictions
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Predict. Compete. Compare. Win bragging rights with friends across the globe during the FIFA World Cup 2026.
 
-## Available Scripts
+[![Live Demo](https://img.shields.io/badge/demo-online-brightgreen)](https://golazo-fi-fa-2026.vercel.app)
+[![React](https://img.shields.io/badge/React-CRA-61DAFB?logo=react&logoColor=white)](https://reactjs.org/)
+[![License](https://img.shields.io/badge/license-MIT-blue)](#license)
+
+---
+
+## 🏆 About
+
+**Golazo** is a web app built around the excitement of the FIFA World Cup 2026. Users predict match outcomes, score points based on accuracy, and compete with friends or the wider community on live leaderboards — all in real time as the tournament unfolds.
+
+**Live app:** [golazo-fi-fa-2026.vercel.app](https://golazo-fi-fa-2026.vercel.app)
+
+---
+
+## ✨ Features
+
+- 🔮 **Match Predictions** — Predict scores for upcoming World Cup fixtures before kickoff
+- 🔒 **Smart Locking** — Predictions lock automatically once a match starts
+- 👥 **Groups & Community** — Create or join groups and compete with friends
+- 📊 **Live Leaderboards** — Real-time scoring and ranking as results come in
+- 📱 **Responsive UI** — Clean, mobile-friendly interface for predicting on the go
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer       | Technology              |
+|-------------|--------------------------|
+| Frontend    | React (Create React App) |
+| Hosting     | Vercel                   |
+| Styling     | CSS                      |
+
+---
+
+## 🚀 Getting Started
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/AAbdullahRajput/Golazo-FiFa-2026.git
+cd Golazo-FiFa-2026
+npm install
+```
+
+### Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+#### `npm start`
+Runs the app in development mode.
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser. The page reloads automatically on changes.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#### `npm test`
+Launches the test runner in interactive watch mode.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### `npm run build`
+Builds the app for production to the `build` folder, optimized and minified for the best performance.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📂 Project Structure
 
-### `npm run build`
+```
+Golazo-FiFa-2026/
+├── public/          # Static assets
+├── src/             # Application source code
+│   ├── App.js       # Root component
+│   ├── App.css      # Global styles
+│   └── index.js     # Entry point
+├── package.json
+└── README.md
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🤝 Contributing
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/AAbdullahRajput/Golazo-FiFa-2026/issues).
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📄 License
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This project is licensed under the MIT License.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="center">Made with ⚽ for the 2026 World Cup</p>
